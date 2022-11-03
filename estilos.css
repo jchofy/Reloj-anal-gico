@@ -1,0 +1,76 @@
+.clock{
+    margin: 0px auto;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+}
+
+body {
+    background-color: rgb(72, 176, 176);
+}
+
+circle {
+    fill: #000000d8;
+    stroke-width: 8px;
+    stroke: rgba(53, 51, 51, 0.467);
+    
+  }
+
+  .hours,
+  .minutes,
+  .seconds {
+    transform-origin: center;
+    stroke-linecap: round;
+    filter: drop-shadow(0 0 0.80px rgb(0, 0, 0));
+  }
+  
+  .hours {
+    stroke: rgb(9, 193, 255);
+    stroke-width: 3px; 
+    transition: transform 1s ease-in-out;
+  }
+  .minutes {
+    stroke-width: 2px; 
+    stroke: rgb(193, 17, 149);
+    transition: transform 1s ease-in-out;
+  }
+  .seconds {
+    stroke: rgb(153, 149, 149);
+    
+  }
+
+.line {
+    font-size: 4px;
+    font-family: sans-serif;
+    transform-origin: center;
+  }
+
+  .enbellecedor{
+    stroke: rgb(132, 132, 132);
+    fill: aliceblue;
+    stroke-width: 1px;
+    filter: drop-shadow(0 0 0.25px rgba(0, 0, 0, 0.514));
+  }
+  .dias{
+    fill: rgb(120, 121, 121);
+    stroke: rgb(55, 54, 54);
+    stroke-width: 1px;
+  }
+  #grande{
+    font-size: 5px;
+    font-weight: 300;
+  }
+
+  .dia{
+    font-size: 2.5px;
+    transform-origin: 80px 60px;
+    font-family: sans-serif;
+  }
+
+  .manecilladias{
+    stroke: rgb(193, 17, 149);
+    stroke-width: 1px; 
+    transform-origin: 80px 60px;
+    transition: transform 1s ease-in-out;
+    filter: drop-shadow(0 0 0.25px rgba(0, 0, 0, 0.514));
+  }
