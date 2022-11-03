@@ -3,6 +3,7 @@
     width: 80vw;
     height: 90vh;
     display: flex;
+    justify-content: center;
 }
 
 body {
